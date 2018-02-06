@@ -28,25 +28,4 @@ Set the startup intent as Mainactivity2
 
 ### Build instructions
 
-1. Clone the repository
-
-2. libstreaming is referenced as git submodule in this repo, so you will need to run the two following commands:
-```sh
-git submodule init
-git submodule update
-```
-
-3. Run the **android project update** command in the libstreaming directory and in the directory of the example you wish to compile:
-```sh
-cd libstreaming
-android update project --path . --target android-21
-cd ../example3/app
-android update project --path . --target android-21
-```
-
-4. Run ant
-```sh
-ant debug
-```
-
-**Note: you will need to run 'ant clean' before compiling another example!**
+- Open the Project in android studio
